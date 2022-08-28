@@ -1,0 +1,20 @@
+// @import url(https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&display=swap);
+$primary-color:#ffd700;
+@import 'animate.css';
+$font-roboto:'Roboto flex', serif;
+$font-la-belle: 'La-Belle-Aurore', serif;
+
+@font-face {
+  font-family: $font-roboto;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&display=swap');
+}
+
+@font-face {
+  font-family: $font-la-belle;
+  src: url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+}
+
+input,
+textarea {
+  font-family: $font-roboto;
+}
